@@ -1,0 +1,22 @@
+TypeScript：是微软开发的编程语言
+是JS的超集，兼容JS
+运行前需预编译生成JS代码
+加入类型判断，编译时进行类型检查
+文件扩展名为.ts
+
+TypeScript = Type + JS
+
+装饰器：一种特殊类型的声明
+能够被附加到类，方法，访问符，属性或参数上
+
+官方：https://www.typescriptlang.org/
+
+---
+
+开发环境准备
+Node.js  推荐6.0以上的版本
+
+webpacK
+npm install -g webpack
+
+

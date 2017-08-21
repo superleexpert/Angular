@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>组件</title>
+    <!--<script src="ngLanguageService/angular-plugin.js"></script>-->
+    <!--<script src="ngLanguageService/angular-session.js"></script>-->
+    <!--<script src="ngLanguageService/syntax-kind.js"></script>-->
+    <!--<script src="jquery-3.2.1.min.js"></script>-->
+    <script src="angular-1.5.8/angular.min.js"></script>
+</head>
+<body>
+<!--模块，控制器-->
+<div ng-app="hd" ng-controller="ctrl">
+    <h2 ng-bind="name"></h2>
+    <input type="text" ng-model="name">
+</div>
+<script>
+    var mg = angular.module('hd', []);
+    mg.controller('ctrl', ['$scope', function ($scope) { // scope: view model
+        $scope.name = "大企鹅、淘宝天猫";
+    }])
+</script>
+</body>
+</html>
+
+<script>
+//    alert($);
+</script>
