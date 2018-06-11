@@ -19,4 +19,9 @@ Node.js  推荐6.0以上的版本
 webpacK
 npm install -g webpack
 
+e2e
+集成测试
+
+
+
 
